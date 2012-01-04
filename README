@@ -1,8 +1,41 @@
-
 	Hi all
 	It is my first time . 
 	
 	i upload my project
+
+	now you face some problem .
+		
+		problem 1:
+			create .ko file 
+		solution 1:
+			change Makefile in "/usr/src/linux" to "/usr/src/linux*" or "/usr/src/linux_..."  
+
+		problem 2:
+			run ./load file
+		solution 2:
+			shell script: 
+				$su
+				password:<Enter password>
+				#chmod +x load
+				#chmod +x release.sh
+				#./load
+
+		problem 3:
+			load again 
+			cause : load again without release 
+		solution 3:
+			run ./release.sh
+			or reboot is solve all problem
+			
+		problem load:
+			unknow
+		solution load:
+			reboot. 
+		
+		prblem other:
+			unKnow
+		solution other:
+			search in internet (google)
 
 
 	pavel (asraful009)
